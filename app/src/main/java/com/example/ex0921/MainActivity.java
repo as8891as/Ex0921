@@ -26,10 +26,10 @@ import java.util.Random;
  * The activity has 5 buttons showcasing AlertDialog
  */
 public class MainActivity extends AppCompatActivity {
-    AlertDialog.Builder adb;
-    ConstraintLayout constLayout;
-    Random rnd;
-    Intent si;
+    private AlertDialog.Builder adb;
+    private ConstraintLayout constLayout;
+    private Random rnd;
+    private Intent si;
 
     /**
      * The method is called when the activity is created. The method initializes the activity and the necessary attributes.
